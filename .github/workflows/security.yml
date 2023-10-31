@@ -1,8 +1,6 @@
 name: Security
 
-on:
-  pull_request:
-    types: [opened, reopened]
+on: push
 
 jobs:
   security:

@@ -1,8 +1,6 @@
 name: Test
 
-on:
-  pull_request:
-    types: [opened, reopened]
+on: push
 
 jobs:
   test:
@@ -34,5 +32,5 @@ jobs:
             ${{ runner.os }}-pnpm-store-
       - name: Install dependencies
         run: pnpm i
-      - name: Build
-        run: pnpm run build
+      - name: Lint
+        run: pnpm run lint
