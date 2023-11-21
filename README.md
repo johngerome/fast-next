@@ -6,7 +6,7 @@ An optimized Next.js starter kit designed to prioritize speed and peak performan
 
 ### Apps and Packages
 
-- `web`: another [Next.js](https://nextjs.org/) app
+- `web`: [Next.js](https://nextjs.org/) app
 - `ui`: a stub React component library shared by `web` application
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
@@ -15,10 +15,11 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Utilities
 
-This Turborepo has some additional tools already setup for you:
+This starter kit has some additional tools already setup for you:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [Biome](https://biomejs.dev/) for code formatting and linting
+- [Turborepo](https://turbo.build/repo) incremental bundler and build system
 
 ### Build
 
